@@ -2,8 +2,11 @@
   "compilerOptions": {
     "baseUrl": "src",
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
     "moduleResolution": "node",
     "outDir": "build",
-    "target": "esnext"
+    "skipLibCheck": true,
+    "target": "es2021"
   }
 }
